@@ -12,6 +12,7 @@ Source0:	MP3-ID3v1Tag-1.11.tar.bz2
 URL:		http://www.cpan.org
 BuildRequires:	perl-devel
 Buildarch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 MP3-ID3v1Tag module for perl
