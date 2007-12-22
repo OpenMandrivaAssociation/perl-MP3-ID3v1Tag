@@ -1,6 +1,6 @@
 %define name	perl-MP3-ID3v1Tag
 %define version 1.11
-%define release %mkrel 7
+%define release %mkrel 8
 
 Summary:	MP3-ID3v1Tag module for perl 
 Name:		%{name}
