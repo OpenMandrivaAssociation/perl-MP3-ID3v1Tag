@@ -1,7 +1,7 @@
 %define module	MP3-ID3v1Tag
 %define name	perl-%{module}
 %define version 1.11
-%define release %mkrel 9
+%define release %mkrel 11
 
 Name:		%{name}
 Version:	%{version}
