@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	4
 
 Summary:	Edit ID3v1 Tags from an Audio MPEG Layer 3
 License:	GPL+ or Artistic
