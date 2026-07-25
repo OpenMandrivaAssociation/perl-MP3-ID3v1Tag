@@ -2,14 +2,14 @@
 %define upstream_version 1.11
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%{upstream_version}
+Release:	5
 
 Summary:	Edit ID3v1 Tags from an Audio MPEG Layer 3
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://search.cpan.org/CPAN/modules/by-module/MP3/%{upstream_name}-%{upstream_version}.tar.bz2
+Url:		https://metacpan.org/dist/MP3-ID3v1Tag
+Source0:	https://cpan.metacpan.org/authors/id/S/SV/SVANZOEST/MP3-ID3v1Tag-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
