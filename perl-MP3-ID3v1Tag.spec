@@ -1,15 +1,13 @@
 %define upstream_name	 MP3-ID3v1Tag
-%define upstream_version 1.11
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	5
+Version:	1.11
+Release:	6
 
 Summary:	Edit ID3v1 Tags from an Audio MPEG Layer 3
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/MP3-ID3v1Tag
-Source0:	https://cpan.metacpan.org/authors/id/S/SV/SVANZOEST/MP3-ID3v1Tag-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/S/SV/SVANZOEST/MP3-ID3v1Tag-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -21,7 +19,7 @@ Just create an MP3::ID3v1Tag Object with the path to the file of interest, and
 query any of the methods below.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -42,9 +40,7 @@ make test
 %changelog
 * Mon Aug 03 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 1.110.0-1mdv2010.0
 + Revision: 407809
-- rebuild using %%perl_convert_version
-
-* Thu Jul 31 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.11-12mdv2009.0
+- rebuild using %1.11 Thu Jul 31 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.11-12mdv2009.0
 + Revision: 257930
 - rebuild
 
