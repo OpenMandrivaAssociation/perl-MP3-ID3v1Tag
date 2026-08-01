@@ -2,7 +2,7 @@
 %define upstream_version 1.11
 Name:		perl-%{upstream_name}
 Version:	1.11
-Release:	2
+Release:	3
 
 Summary:	Edit ID3v1 Tags from an Audio MPEG Layer 3
 License:	GPL+ or Artistic
